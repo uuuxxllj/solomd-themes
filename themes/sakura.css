@@ -1,0 +1,93 @@
+/*
+ * Sakura — community theme for SoloMD.
+ * 日间 / 暖色。晨光里落下的樱瓣：奶白宣纸，玫瑰墨色，
+ * 适合温柔的长文阅读与随笔。柔、暖、不刺眼。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #fffaf8;
+  --bg-elev: #f7e9e4;
+  --bg-hover: #f1ddd5;
+  --bg-active: #cdbcb5;
+  --border: #f0d9d0;
+  --text: #5a4a4a;
+  --text-muted: #8a7270;
+  --text-faint: #b39a96;
+  --accent: #d6768f;
+  --accent-fg: #fffaf8;
+  --danger: #c14b5e;
+
+  /* Markdown element colors */
+  --md-h1: #4a3a3a;
+  --md-h2: #5a4a4a;
+  --md-h3: #6b5555;
+  --md-h4: #7c6464;
+  --md-h5: #8a7270;
+  --md-h6: #a08581;
+  --md-strong: #4a3a3a;
+  --md-em: #6b5555;
+  --md-link: #c76b86;
+  --md-url: #a85570;
+  --md-code: #b5556f;
+  --md-code-bg: #f7e9e4;
+  --md-quote: #8a7270;
+  --md-list: #c76b86;
+  --md-hr: #f0d9d0;
+
+  /* Code block syntax */
+  --syn-keyword: #a85570;
+  --syn-string: #7a9a6e;
+  --syn-number: #c98a4b;
+  --syn-comment: #b39a96;
+  --syn-function: #c76b86;
+  --syn-variable: #6b5555;
+  --syn-type: #d6768f;
+  --syn-property: #b5556f;
+  --syn-operator: #8a7270;
+}
+
+:root[data-theme="dark"] {
+  --bg: #211e1d;
+  --bg-elev: #171514;
+  --bg-hover: #100f0e;
+  --bg-active: #0c0b0b;
+  --border: #12100f;
+  --text: #e3dddd;
+  --text-muted: #b7a4a4;
+  --text-faint: #916e6e;
+  --accent: #d6768f;
+  --accent-fg: #fffaf5;
+  --danger: #c14b5e;
+
+  /* Markdown element colors */
+  --md-h1: #ad8f8f;
+  --md-h2: #af9696;
+  --md-h3: #b49999;
+  --md-h4: #b79e9e;
+  --md-h5: #baa4a2;
+  --md-h6: #bbadab;
+  --md-strong: #ad8f8f;
+  --md-em: #b49999;
+  --md-link: #c8a3ae;
+  --md-url: #ca93a5;
+  --md-code: #c59ca7;
+  --md-code-bg: #1e1b1a;
+  --md-quote: #baa4a2;
+  --md-list: #c8a3ae;
+  --md-hr: #cfc6c3;
+
+  /* Code block syntax */
+  --syn-keyword: #ca93a5;
+  --syn-string: #abbba5;
+  --syn-number: #ccb297;
+  --syn-comment: #c0b3b1;
+  --syn-function: #c8a3ae;
+  --syn-variable: #b49999;
+  --syn-type: #cba7b0;
+  --syn-property: #c59ca7;
+  --syn-operator: #baa4a2;
+}

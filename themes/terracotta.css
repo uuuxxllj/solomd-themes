@@ -1,0 +1,93 @@
+/*
+ * Terracotta — community theme for SoloMD.
+ * 日间 / 橙色 / 温润。赤陶花盆：带红的陶土纸，
+ * 大地色橙，质朴而有手作感。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #fff7ef;
+  --bg-elev: #f4e2d2;
+  --bg-hover: #eccfba;
+  --bg-active: #c9b09e;
+  --border: #eecbb6;
+  --text: #5c3a2a;
+  --text-muted: #8a5e44;
+  --text-faint: #b08670;
+  --accent: #c4683a;
+  --accent-fg: #fff7ef;
+  --danger: #b23a2a;
+
+  /* Markdown element colors */
+  --md-h1: #43271b;
+  --md-h2: #523225;
+  --md-h3: #5c3a2a;
+  --md-h4: #6e4836;
+  --md-h5: #8a5e44;
+  --md-h6: #a0745a;
+  --md-strong: #43271b;
+  --md-em: #5c3a2a;
+  --md-link: #b85e34;
+  --md-url: #9c4a28;
+  --md-code: #a8442a;
+  --md-code-bg: #f4e2d2;
+  --md-quote: #8a5e44;
+  --md-list: #b85e34;
+  --md-hr: #eecbb6;
+
+  /* Code block syntax */
+  --syn-keyword: #9c4a28;
+  --syn-string: #7a8a45;
+  --syn-number: #c08a2a;
+  --syn-comment: #b08670;
+  --syn-function: #b85e34;
+  --syn-variable: #5c3a2a;
+  --syn-type: #c4683a;
+  --syn-property: #a8442a;
+  --syn-operator: #8a5e44;
+}
+
+:root[data-theme="dark"] {
+  --bg: #211f1c;
+  --bg-elev: #171614;
+  --bg-hover: #100f0e;
+  --bg-active: #0c0b0b;
+  --border: #12110f;
+  --text: #e7deda;
+  --text-muted: #bea89d;
+  --text-faint: #9e7461;
+  --accent: #c4683a;
+  --accent-fg: #fffaf5;
+  --danger: #b23a2a;
+
+  /* Markdown element colors */
+  --md-h1: #c5876d;
+  --md-h2: #c38c76;
+  --md-h3: #c49179;
+  --md-h4: #c39781;
+  --md-h5: #c7a089;
+  --md-h6: #c6a896;
+  --md-strong: #c5876d;
+  --md-em: #c49179;
+  --md-link: #da9b7e;
+  --md-url: #da9173;
+  --md-code: #dc8b76;
+  --md-code-bg: #1e1c1a;
+  --md-quote: #c7a089;
+  --md-list: #da9b7e;
+  --md-hr: #cec3bc;
+
+  /* Code block syntax */
+  --syn-keyword: #da9173;
+  --syn-string: #b8c78a;
+  --syn-number: #e0ba78;
+  --syn-comment: #c1afa6;
+  --syn-function: #da9b7e;
+  --syn-variable: #c49179;
+  --syn-type: #daa083;
+  --syn-property: #dc8b76;
+  --syn-operator: #c7a089;
+}

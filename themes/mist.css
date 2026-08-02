@@ -1,0 +1,93 @@
+/*
+ * Mist — community theme for SoloMD.
+ * 日间 / 蓝色 / 温润。清晨的雾霾蓝：带灰的雾蓝纸，
+ * 安静克制，像阴天里的一杯茶。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #f6f8fb;
+  --bg-elev: #e1e7ee;
+  --bg-hover: #d0d9e4;
+  --bg-active: #b1b8c2;
+  --border: #d2dae3;
+  --text: #3a4658;
+  --text-muted: #5e6e82;
+  --text-faint: #8a98a8;
+  --accent: #5a7da6;
+  --accent-fg: #f6f8fb;
+  --danger: #b04a5a;
+
+  /* Markdown element colors */
+  --md-h1: #2a3344;
+  --md-h2: #344052;
+  --md-h3: #3a4658;
+  --md-h4: #48566a;
+  --md-h5: #5e6e82;
+  --md-h6: #748394;
+  --md-strong: #2a3344;
+  --md-em: #3a4658;
+  --md-link: #4f719a;
+  --md-url: #3e5c80;
+  --md-code: #456b94;
+  --md-code-bg: #e1e7ee;
+  --md-quote: #5e6e82;
+  --md-list: #4f719a;
+  --md-hr: #d2dae3;
+
+  /* Code block syntax */
+  --syn-keyword: #3e5c80;
+  --syn-string: #5a7a55;
+  --syn-number: #a07a3a;
+  --syn-comment: #8a98a8;
+  --syn-function: #4f719a;
+  --syn-variable: #3a4658;
+  --syn-type: #5a7da6;
+  --syn-property: #456b94;
+  --syn-operator: #5e6e82;
+}
+
+:root[data-theme="dark"] {
+  --bg: #1d1e21;
+  --bg-elev: #141517;
+  --bg-hover: #0e0f10;
+  --bg-active: #0b0b0c;
+  --border: #0f1012;
+  --text: #dbdfe5;
+  --text-muted: #9eaabc;
+  --text-faint: #667a99;
+  --accent: #5a7da6;
+  --accent-fg: #fffaf5;
+  --danger: #b04a5a;
+
+  /* Markdown element colors */
+  --md-h1: #8193b5;
+  --md-h2: #8699b7;
+  --md-h3: #8a9bb6;
+  --md-h4: #90a1b8;
+  --md-h5: #9aa9bb;
+  --md-h6: #a7afb9;
+  --md-strong: #8193b5;
+  --md-em: #8a9bb6;
+  --md-link: #8fa9c8;
+  --md-url: #86a3c6;
+  --md-code: #89a8ca;
+  --md-code-bg: #1b1c1e;
+  --md-quote: #9aa9bb;
+  --md-list: #8fa9c8;
+  --md-hr: #c3c7cc;
+
+  /* Code block syntax */
+  --syn-keyword: #86a3c6;
+  --syn-string: #9bba96;
+  --syn-number: #d2b481;
+  --syn-comment: #aeb5bd;
+  --syn-function: #8fa9c8;
+  --syn-variable: #8a9bb6;
+  --syn-type: #9eadbf;
+  --syn-property: #89a8ca;
+  --syn-operator: #9aa9bb;
+}

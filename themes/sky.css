@@ -1,0 +1,93 @@
+/*
+ * Sky — community theme for SoloMD.
+ * 日间 / 冷色。晴空下的笔记本：淡蓝羊皮纸，天青墨，
+ * 疏朗、理性，适合写方案与文档。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #f8fbfe;
+  --bg-elev: #e1eaf5;
+  --bg-hover: #cdddf0;
+  --bg-active: #aebccc;
+  --border: #c9d8ea;
+  --text: #2e3f52;
+  --text-muted: #51687f;
+  --text-faint: #7e93a8;
+  --accent: #3a7bd5;
+  --accent-fg: #f8fbfe;
+  --danger: #c44a4a;
+
+  /* Markdown element colors */
+  --md-h1: #1e2c3c;
+  --md-h2: #28394c;
+  --md-h3: #2e3f52;
+  --md-h4: #3c4e63;
+  --md-h5: #51687f;
+  --md-h6: #647c93;
+  --md-strong: #1e2c3c;
+  --md-em: #2e3f52;
+  --md-link: #336ec2;
+  --md-url: #285aa3;
+  --md-code: #2d6bb5;
+  --md-code-bg: #e1eaf5;
+  --md-quote: #51687f;
+  --md-list: #336ec2;
+  --md-hr: #c9d8ea;
+
+  /* Code block syntax */
+  --syn-keyword: #285aa3;
+  --syn-string: #3a8f6a;
+  --syn-number: #c77a2a;
+  --syn-comment: #7e93a8;
+  --syn-function: #336ec2;
+  --syn-variable: #2e3f52;
+  --syn-type: #3a7bd5;
+  --syn-property: #2d6bb5;
+  --syn-operator: #51687f;
+}
+
+:root[data-theme="dark"] {
+  --bg: #1d1f21;
+  --bg-elev: #141617;
+  --bg-hover: #0e0f10;
+  --bg-active: #0b0b0c;
+  --border: #0f1112;
+  --text: #dae0e7;
+  --text-muted: #9dacbe;
+  --text-faint: #617e9e;
+  --accent: #3a7bd5;
+  --accent-fg: #fffaf5;
+  --danger: #c44a4a;
+
+  /* Markdown element colors */
+  --md-h1: #7496bc;
+  --md-h2: #7b9abd;
+  --md-h3: #809cbb;
+  --md-h4: #88a0bb;
+  --md-h5: #93a8be;
+  --md-h6: #9caec0;
+  --md-strong: #7496bc;
+  --md-em: #809cbb;
+  --md-link: #7ea5dc;
+  --md-url: #749edc;
+  --md-code: #79a6dd;
+  --md-code-bg: #1b1c1e;
+  --md-quote: #93a8be;
+  --md-list: #7ea5dc;
+  --md-hr: #c1c6cd;
+
+  /* Code block syntax */
+  --syn-keyword: #749edc;
+  --syn-string: #82cdac;
+  --syn-number: #e1ae78;
+  --syn-comment: #aab4be;
+  --syn-function: #7ea5dc;
+  --syn-variable: #809cbb;
+  --syn-type: #8eabd3;
+  --syn-property: #79a6dd;
+  --syn-operator: #93a8be;
+}

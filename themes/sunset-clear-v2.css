@@ -1,0 +1,92 @@
+/*
+ * Sunset Clear — community theme for SoloMD.
+ * sunset 的「清晰橙」变体：强调色用清晰可读的橙（比目录深），
+ * 悬浮/选中项的文字是暖白，永远清晰、绝不发白。
+ * 阅读页仍最浅、目录为蜜桃面板。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ */
+:root,
+:root[data-theme="light"]{
+  --bg: #fffaf5;          /* 阅读页：极浅暖白（最浅） */
+  --bg-elev: #fde9d6;      /* 目录/侧栏：柔和蜜桃面板 */
+  --bg-hover: #fbdac1;     /* 目录悬停 */
+  --bg-active: #f8cbab;    /* 目录选中 */
+  --border: #fbd3aa;
+  --text: #5e3a1e;        /* 深橙墨 */
+  --text-muted: #8f5e34;
+  --text-faint: #b98a64;
+  --accent: #d2691e;      /* 清晰橙：比目录深，悬浮文字清晰 */
+  --accent-fg: #fff7f0;   /* 深橙底上的暖白 */
+  --danger: #d23a2a;
+
+  /* Markdown element colors */
+  --md-h1: #43270f;
+  --md-h2: #54321a;
+  --md-h3: #5e3a1e;
+  --md-h4: #724a2a;
+  --md-h5: #8f5e34;
+  --md-h6: #a5734a;
+  --md-strong: #43270f;
+  --md-em: #5e3a1e;
+  --md-link: #e06f12;
+  --md-url: #bd5a0e;
+  --md-code: #c4561f;
+  --md-code-bg: #fde4cb;
+  --md-quote: #8f5e34;
+  --md-list: #e06f12;
+  --md-hr: #fbd3aa;
+
+  /* Code block syntax */
+  --syn-keyword: #bd5a0e;
+  --syn-string: #6f8f3f;
+  --syn-number: #d4901f;
+  --syn-comment: #b98a64;
+  --syn-function: #e06f12;
+  --syn-variable: #5e3a1e;
+  --syn-type: #f07c1e;
+  --syn-property: #c4561f;
+  --syn-operator: #8f5e34;
+}
+:root[data-theme="dark"] {
+  --bg: #3a2d20;
+  --bg-elev: #2e241b;
+  --bg-hover: #251e17;
+  --bg-active: #1c1712;
+  --border: #3d3024;
+  --text: #e8d8c4;
+  --text-muted: #c0a98e;
+  --text-faint: #8f785f;
+  --accent: #e0922f;
+  --accent-fg: #1c1712;
+  --danger: #d4562f;
+
+  /* Markdown element colors */
+  --md-h1: #f5e9d6;
+  --md-h2: #ecdcc2;
+  --md-h3: #e8d8c4;
+  --md-h4: #d8c2a4;
+  --md-h5: #c0a98e;
+  --md-h6: #a89073;
+  --md-strong: #f5e9d6;
+  --md-em: #e8d8c4;
+  --md-link: #e0922f;
+  --md-url: #c97f2a;
+  --md-code: #d4793a;
+  --md-code-bg: #2e241b;
+  --md-quote: #c0a98e;
+  --md-list: #e0922f;
+  --md-hr: #3d3024;
+
+  /* Code block syntax */
+  --syn-keyword: #c97f2a;
+  --syn-string: #9bbf6e;
+  --syn-number: #e0a93a;
+  --syn-comment: #8f785f;
+  --syn-function: #e0922f;
+  --syn-variable: #e8d8c4;
+  --syn-type: #e0922f;
+  --syn-property: #d4793a;
+  --syn-operator: #c0a98e;
+}

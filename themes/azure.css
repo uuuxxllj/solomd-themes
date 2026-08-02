@@ -1,0 +1,93 @@
+/*
+ * Azure — community theme for SoloMD.
+ * 日间 / 蓝色 / 浓郁。深海晴空：沉稳的靛蓝纸，
+ * 理性而专注，适合写文档与代码。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #f4f8fe;
+  --bg-elev: #d8e2f4;
+  --bg-hover: #c2d2ee;
+  --bg-active: #a5b2ca;
+  --border: #c4d4ec;
+  --text: #243a5e;
+  --text-muted: #46618a;
+  --text-faint: #7894b4;
+  --accent: #2f6fd0;
+  --accent-fg: #f4f8fe;
+  --danger: #c4455a;
+
+  /* Markdown element colors */
+  --md-h1: #182a4a;
+  --md-h2: #21395e;
+  --md-h3: #243a5e;
+  --md-h4: #324c74;
+  --md-h5: #46618a;
+  --md-h6: #5e7aa0;
+  --md-strong: #182a4a;
+  --md-em: #243a5e;
+  --md-link: #2a62bf;
+  --md-url: #1f4e9c;
+  --md-code: #275aac;
+  --md-code-bg: #d8e2f4;
+  --md-quote: #46618a;
+  --md-list: #2a62bf;
+  --md-hr: #c4d4ec;
+
+  /* Code block syntax */
+  --syn-keyword: #1f4e9c;
+  --syn-string: #3a8a5a;
+  --syn-number: #c0772a;
+  --syn-comment: #7894b4;
+  --syn-function: #2a62bf;
+  --syn-variable: #243a5e;
+  --syn-type: #2f6fd0;
+  --syn-property: #275aac;
+  --syn-operator: #46618a;
+}
+
+:root[data-theme="dark"] {
+  --bg: #1c1e21;
+  --bg-elev: #141517;
+  --bg-hover: #0e0f10;
+  --bg-active: #0b0b0c;
+  --border: #0f1012;
+  --text: #dadfe7;
+  --text-muted: #9da9be;
+  --text-faint: #61789e;
+  --accent: #2f6fd0;
+  --accent-fg: #fffaf5;
+  --danger: #c4455a;
+
+  /* Markdown element colors */
+  --md-h1: #668bcd;
+  --md-h2: #6e93cc;
+  --md-h3: #7293ca;
+  --md-h4: #7d9bc8;
+  --md-h5: #8aa2c6;
+  --md-h6: #98abc5;
+  --md-strong: #668bcd;
+  --md-em: #7293ca;
+  --md-link: #789fe0;
+  --md-url: #6b97e0;
+  --md-code: #739cde;
+  --md-code-bg: #1a1c1e;
+  --md-quote: #8aa2c6;
+  --md-list: #789fe0;
+  --md-hr: #bfc5ce;
+
+  /* Code block syntax */
+  --syn-keyword: #6b97e0;
+  --syn-string: #82cc9f;
+  --syn-number: #e0ad78;
+  --syn-comment: #a8b4c1;
+  --syn-function: #789fe0;
+  --syn-variable: #7293ca;
+  --syn-type: #7da4e0;
+  --syn-property: #739cde;
+  --syn-operator: #8aa2c6;
+}

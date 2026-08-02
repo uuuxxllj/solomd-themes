@@ -1,0 +1,93 @@
+/*
+ * Peach — community theme for SoloMD.
+ * 日间 / 橙色 / 温润。初夏的蜜桃：柔嫩的桃白纸，
+ * 暖橙晕染，像午后阳光晒过的信笺。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #fff8f3;
+  --bg-elev: #fbe6d8;
+  --bg-hover: #f7d6c2;
+  --bg-active: #d2b6a5;
+  --border: #f6d8c6;
+  --text: #5e4434;
+  --text-muted: #8a6a54;
+  --text-faint: #b0907a;
+  --accent: #e8895a;
+  --accent-fg: #fff8f3;
+  --danger: #c4452f;
+
+  /* Markdown element colors */
+  --md-h1: #46301f;
+  --md-h2: #563a26;
+  --md-h3: #5e4434;
+  --md-h4: #6f5240;
+  --md-h5: #8a6a54;
+  --md-h6: #9e8068;
+  --md-strong: #46301f;
+  --md-em: #5e4434;
+  --md-link: #d9763f;
+  --md-url: #b85f2a;
+  --md-code: #c4561f;
+  --md-code-bg: #fbe6d8;
+  --md-quote: #8a6a54;
+  --md-list: #d9763f;
+  --md-hr: #f6d8c6;
+
+  /* Code block syntax */
+  --syn-keyword: #b85f2a;
+  --syn-string: #7a8f45;
+  --syn-number: #c98a2b;
+  --syn-comment: #b0907a;
+  --syn-function: #d9763f;
+  --syn-variable: #5e4434;
+  --syn-type: #e8895a;
+  --syn-property: #c4561f;
+  --syn-operator: #8a6a54;
+}
+
+:root[data-theme="dark"] {
+  --bg: #211e1c;
+  --bg-elev: #171514;
+  --bg-hover: #100f0e;
+  --bg-active: #0c0b0b;
+  --border: #12100f;
+  --text: #e7dfda;
+  --text-muted: #beaa9d;
+  --text-faint: #9e7861;
+  --accent: #e8895a;
+  --accent-fg: #fffaf5;
+  --danger: #c4452f;
+
+  /* Markdown element colors */
+  --md-h1: #c29572;
+  --md-h2: #c49676;
+  --md-h3: #bd9983;
+  --md-h4: #be9e89;
+  --md-h5: #c1a693;
+  --md-h6: #bcaea3;
+  --md-strong: #c29572;
+  --md-em: #bd9983;
+  --md-link: #d4a890;
+  --md-url: #df9e77;
+  --md-code: #e29974;
+  --md-code-bg: #1e1c1a;
+  --md-quote: #c1a693;
+  --md-list: #d4a890;
+  --md-hr: #d0c6c0;
+
+  /* Code block syntax */
+  --syn-keyword: #df9e77;
+  --syn-string: #b6c88a;
+  --syn-number: #e1b879;
+  --syn-comment: #c0b2a9;
+  --syn-function: #d4a890;
+  --syn-variable: #bd9983;
+  --syn-type: #d4ae9b;
+  --syn-property: #e29974;
+  --syn-operator: #c1a693;
+}

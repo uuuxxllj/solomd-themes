@@ -1,0 +1,94 @@
+/*
+ * Sunset — community theme for SoloMD.
+ * 落日橙·变体 A（浅橙强调色）：强调色用比目录更浅的浅橙 (#ffeddb)，
+ * 其上文字用深橙墨，悬浮/选中项文字同为深橙墨，永远清晰、绝不发白。
+ * 阅读页仍最浅、目录为蜜桃面板。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #fffaf5;
+  --bg-elev: #fde9d6;
+  --bg-hover: #fbdac1;
+  --bg-active: #f8cbab;
+  --border: #fbd3aa;
+  --text: #5e3a1e;
+  --text-muted: #8f5e34;
+  --text-faint: #b98a64;
+  --accent: #ffeddb;
+  --accent-fg: #5e3a1e;
+  --danger: #d23a2a;
+
+  /* Markdown element colors */
+  --md-h1: #43270f;
+  --md-h2: #54321a;
+  --md-h3: #5e3a1e;
+  --md-h4: #724a2a;
+  --md-h5: #8f5e34;
+  --md-h6: #a5734a;
+  --md-strong: #43270f;
+  --md-em: #5e3a1e;
+  --md-link: #e06f12;
+  --md-url: #bd5a0e;
+  --md-code: #c4561f;
+  --md-code-bg: #fde4cb;
+  --md-quote: #8f5e34;
+  --md-list: #e06f12;
+  --md-hr: #fbd3aa;
+
+  /* Code block syntax */
+  --syn-keyword: #bd5a0e;
+  --syn-string: #6f8f3f;
+  --syn-number: #d4901f;
+  --syn-comment: #b98a64;
+  --syn-function: #e06f12;
+  --syn-variable: #5e3a1e;
+  --syn-type: #f07c1e;
+  --syn-property: #c4561f;
+  --syn-operator: #8f5e34;
+}
+
+:root[data-theme="dark"] {
+  --bg: #211f1c;
+  --bg-elev: #171614;
+  --bg-hover: #100f0e;
+  --bg-active: #0c0b0b;
+  --border: #12110f;
+  --text: #e7e0da;
+  --text-muted: #beab9d;
+  --text-faint: #9e7c61;
+  --accent: #ffeddb;
+  --accent-fg: #2a1d12;
+  --danger: #d23a2a;
+
+  /* Markdown element colors */
+  --md-h1: #d89257;
+  --md-h2: #d09267;
+  --md-h3: #cf976b;
+  --md-h4: #cd9c76;
+  --md-h5: #d0a37d;
+  --md-h6: #cda98c;
+  --md-strong: #d89257;
+  --md-em: #cf976b;
+  --md-link: #e2a878;
+  --md-url: #e0a06f;
+  --md-code: #e29974;
+  --md-code-bg: #1e1c1a;
+  --md-quote: #d0a37d;
+  --md-list: #e2a878;
+  --md-hr: #d2c5b8;
+
+  /* Code block syntax */
+  --syn-keyword: #e0a06f;
+  --syn-string: #afcb85;
+  --syn-number: #e2ba78;
+  --syn-comment: #c4b1a1;
+  --syn-function: #e2a878;
+  --syn-variable: #cf976b;
+  --syn-type: #e4ab7e;
+  --syn-property: #e29974;
+  --syn-operator: #d0a37d;
+}

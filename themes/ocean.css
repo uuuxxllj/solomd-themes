@@ -1,0 +1,93 @@
+/*
+ * Ocean — community theme for SoloMD.
+ * 夜间 / 冷色。深海的静谧：藏蓝近黑的水，海天蓝流光，
+ * 沉静、辽阔，像深夜潜入一片墨色海域。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="dark"] {
+  --bg: #26384c;
+  --bg-elev: #1d2a3a;
+  --bg-hover: #162130;
+  --bg-active: #0f1620;
+  --border: #283a4e;
+  --text: #d4e0ec;
+  --text-muted: #9bb2c6;
+  --text-faint: #6b8298;
+  --accent: #4d9be6;
+  --accent-fg: #0f1620;
+  --danger: #e06a5a;
+
+  /* Markdown element colors */
+  --md-h1: #e6f0f8;
+  --md-h2: #d4e0ec;
+  --md-h3: #c2d4e4;
+  --md-h4: #adccdf;
+  --md-h5: #9bb2c6;
+  --md-h6: #84a0b6;
+  --md-strong: #e6f0f8;
+  --md-em: #d4e0ec;
+  --md-link: #4d9be6;
+  --md-url: #3a82c4;
+  --md-code: #5aa8e6;
+  --md-code-bg: #1d2a3a;
+  --md-quote: #9bb2c6;
+  --md-list: #4d9be6;
+  --md-hr: #283a4e;
+
+  /* Code block syntax */
+  --syn-keyword: #3a82c4;
+  --syn-string: #6fbf8f;
+  --syn-number: #d4a85a;
+  --syn-comment: #6b8298;
+  --syn-function: #4d9be6;
+  --syn-variable: #d4e0ec;
+  --syn-type: #4d9be6;
+  --syn-property: #5aa8e6;
+  --syn-operator: #9bb2c6;
+}
+
+:root[data-theme="light"] {
+  --bg: #f6f7f9;
+  --bg-elev: #e7eaef;
+  --bg-hover: #d7dee4;
+  --bg-active: #c4ced9;
+  --border: #e3e8ed;
+  --text: #2f3337;
+  --text-muted: #405c77;
+  --text-faint: #6085a9;
+  --accent: #4d9be6;
+  --accent-fg: #fffaf5;
+  --danger: #e06a5a;
+
+  /* Markdown element colors */
+  --md-h1: #667078;
+  --md-h2: #616c76;
+  --md-h3: #5d6975;
+  --md-h4: #576975;
+  --md-h5: #54626e;
+  --md-h6: #4f5e6a;
+  --md-strong: #667078;
+  --md-em: #616c76;
+  --md-link: #345c83;
+  --md-url: #275783;
+  --md-code: #396181;
+  --md-code-bg: #edf0f2;
+  --md-quote: #54626e;
+  --md-list: #345c83;
+  --md-hr: #2e445d;
+
+  /* Code block syntax */
+  --syn-keyword: #275783;
+  --syn-string: #476f57;
+  --syn-number: #79633d;
+  --syn-comment: #4a5662;
+  --syn-function: #345c83;
+  --syn-variable: #616c76;
+  --syn-type: #345c83;
+  --syn-property: #396181;
+  --syn-operator: #54626e;
+}

@@ -1,0 +1,93 @@
+/*
+ * Sakura Pink — community theme for SoloMD.
+ * 日间 / 粉色 / 清新。初绽的樱粉：轻盈的粉白纸，
+ * 甜而不腻，像少女时代的日记本。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #fff8fb;
+  --bg-elev: #fbe6ee;
+  --bg-hover: #f7d6e3;
+  --bg-active: #d2b6c1;
+  --border: #f6d8e4;
+  --text: #5a3f4a;
+  --text-muted: #8a6474;
+  --text-faint: #b08a9a;
+  --accent: #e07a9c;
+  --accent-fg: #fff8fb;
+  --danger: #c44a64;
+
+  /* Markdown element colors */
+  --md-h1: #432731;
+  --md-h2: #54323d;
+  --md-h3: #5a3f4a;
+  --md-h4: #6e4f5b;
+  --md-h5: #8a6474;
+  --md-h6: #a07d8c;
+  --md-strong: #432731;
+  --md-em: #5a3f4a;
+  --md-link: #d56a8e;
+  --md-url: #b5507a;
+  --md-code: #c4567a;
+  --md-code-bg: #fbe6ee;
+  --md-quote: #8a6474;
+  --md-list: #d56a8e;
+  --md-hr: #f6d8e4;
+
+  /* Code block syntax */
+  --syn-keyword: #b5507a;
+  --syn-string: #7a9a6e;
+  --syn-number: #c98a4b;
+  --syn-comment: #b08a9a;
+  --syn-function: #d56a8e;
+  --syn-variable: #5a3f4a;
+  --syn-type: #e07a9c;
+  --syn-property: #c4567a;
+  --syn-operator: #8a6474;
+}
+
+:root[data-theme="dark"] {
+  --bg: #211d1e;
+  --bg-elev: #171415;
+  --bg-hover: #100e0f;
+  --bg-active: #0c0b0b;
+  --border: #120f10;
+  --text: #e5dce0;
+  --text-muted: #bba0ab;
+  --text-faint: #97687b;
+  --accent: #e07a9c;
+  --accent-fg: #fffaf5;
+  --danger: #c44a64;
+
+  /* Markdown element colors */
+  --md-h1: #b77e92;
+  --md-h2: #b98395;
+  --md-h3: #b58d9d;
+  --md-h4: #b794a2;
+  --md-h5: #bc9caa;
+  --md-h6: #bcaab1;
+  --md-strong: #b77e92;
+  --md-em: #b58d9d;
+  --md-link: #cca3b1;
+  --md-url: #c59aac;
+  --md-code: #c99caa;
+  --md-code-bg: #1e1a1c;
+  --md-quote: #bc9caa;
+  --md-list: #cca3b1;
+  --md-hr: #d0c5ca;
+
+  /* Code block syntax */
+  --syn-keyword: #c59aac;
+  --syn-string: #abbba5;
+  --syn-number: #ccb297;
+  --syn-comment: #c0aeb5;
+  --syn-function: #cca3b1;
+  --syn-variable: #b58d9d;
+  --syn-type: #cea8b5;
+  --syn-property: #c99caa;
+  --syn-operator: #bc9caa;
+}

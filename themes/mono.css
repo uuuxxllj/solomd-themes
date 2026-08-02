@@ -1,0 +1,93 @@
+/*
+ * Mono — community theme for SoloMD.
+ * 日间 / 中性。石墨灰的极简：温润的铅白纸，石墨墨，
+ * 唯一的色彩是一点钢笔墨蓝。克制、高级、耐看。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #fdfdfc;
+  --bg-elev: #ececea;
+  --bg-hover: #e0e0dd;
+  --bg-active: #bebebc;
+  --border: #dddcd9;
+  --text: #36352f;
+  --text-muted: #6a6962;
+  --text-faint: #98968d;
+  --accent: #40403c;
+  --accent-fg: #fdfdfc;
+  --danger: #9e4a44;
+
+  /* Markdown element colors */
+  --md-h1: #24231f;
+  --md-h2: #2e2d28;
+  --md-h3: #36352f;
+  --md-h4: #46453e;
+  --md-h5: #6a6962;
+  --md-h6: #7c7b73;
+  --md-strong: #24231f;
+  --md-em: #36352f;
+  --md-link: #4a5a63;
+  --md-url: #6b6b63;
+  --md-code: #8a4a44;
+  --md-code-bg: #ececea;
+  --md-quote: #6a6962;
+  --md-list: #4a5a63;
+  --md-hr: #dddcd9;
+
+  /* Code block syntax */
+  --syn-keyword: #4a5a63;
+  --syn-string: #5a7a5a;
+  --syn-number: #9a7b3a;
+  --syn-comment: #98968d;
+  --syn-function: #4a5a63;
+  --syn-variable: #36352f;
+  --syn-type: #40403c;
+  --syn-property: #8a4a44;
+  --syn-operator: #6a6962;
+}
+
+:root[data-theme="dark"] {
+  --bg: #20201d;
+  --bg-elev: #171715;
+  --bg-hover: #10100f;
+  --bg-active: #0c0c0b;
+  --border: #12120f;
+  --text: #e3e2de;
+  --text-muted: #b6b3a5;
+  --text-faint: #8f8b70;
+  --accent: #40403c;
+  --accent-fg: #fffaf5;
+  --danger: #9e4a44;
+
+  /* Markdown element colors */
+  --md-h1: #a29d89;
+  --md-h2: #a3a08c;
+  --md-h3: #a5a28f;
+  --md-h4: #a8a694;
+  --md-h5: #afada0;
+  --md-h6: #b3b2a6;
+  --md-strong: #a29d89;
+  --md-em: #a5a28f;
+  --md-link: #93a8b4;
+  --md-url: #afafa1;
+  --md-code: #c78e89;
+  --md-code-bg: #1d1d1b;
+  --md-quote: #afada0;
+  --md-list: #93a8b4;
+  --md-hr: #cbc9c4;
+
+  /* Code block syntax */
+  --syn-keyword: #93a8b4;
+  --syn-string: #99b999;
+  --syn-number: #d0b781;
+  --syn-comment: #b9b7af;
+  --syn-function: #93a8b4;
+  --syn-variable: #a5a28f;
+  --syn-type: #a5a595;
+  --syn-property: #c78e89;
+  --syn-operator: #afada0;
+}

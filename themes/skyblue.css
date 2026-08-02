@@ -1,0 +1,93 @@
+/*
+ * Sky Blue — community theme for SoloMD.
+ * 日间 / 蓝色 / 清新。晴朗的天际：通透的天蓝纸，
+ * 疏朗轻快，像一张写满计划的便签。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #f6fafe;
+  --bg-elev: #dcebf7;
+  --bg-hover: #c8def2;
+  --bg-active: #aabdce;
+  --border: #c9dcea;
+  --text: #2c445c;
+  --text-muted: #4f6e8a;
+  --text-faint: #7e9ab2;
+  --accent: #3f93d6;
+  --accent-fg: #f6fafe;
+  --danger: #c44a5a;
+
+  /* Markdown element colors */
+  --md-h1: #1e3247;
+  --md-h2: #284056;
+  --md-h3: #2c445c;
+  --md-h4: #39566e;
+  --md-h5: #4f6e8a;
+  --md-h6: #64809a;
+  --md-strong: #1e3247;
+  --md-em: #2c445c;
+  --md-link: #3584c6;
+  --md-url: #286aa3;
+  --md-code: #2d74b5;
+  --md-code-bg: #dcebf7;
+  --md-quote: #4f6e8a;
+  --md-list: #3584c6;
+  --md-hr: #c9dcea;
+
+  /* Code block syntax */
+  --syn-keyword: #286aa3;
+  --syn-string: #3a8f6a;
+  --syn-number: #c77a2a;
+  --syn-comment: #7e9ab2;
+  --syn-function: #3584c6;
+  --syn-variable: #2c445c;
+  --syn-type: #3f93d6;
+  --syn-property: #2d74b5;
+  --syn-operator: #4f6e8a;
+}
+
+:root[data-theme="dark"] {
+  --bg: #1d1f21;
+  --bg-elev: #141617;
+  --bg-hover: #0e0f10;
+  --bg-active: #0b0b0c;
+  --border: #0f1112;
+  --text: #dae0e7;
+  --text-muted: #9dadbe;
+  --text-faint: #617f9e;
+  --accent: #3f93d6;
+  --accent-fg: #fffaf5;
+  --danger: #c44a5a;
+
+  /* Markdown element colors */
+  --md-h1: #7099c4;
+  --md-h2: #789fc2;
+  --md-h3: #7b9fc2;
+  --md-h4: #84a6c2;
+  --md-h5: #90abc3;
+  --md-h6: #9bafc2;
+  --md-strong: #7099c4;
+  --md-em: #7b9fc2;
+  --md-link: #80b2dc;
+  --md-url: #74abdc;
+  --md-code: #79addd;
+  --md-code-bg: #1a1c1e;
+  --md-quote: #90abc3;
+  --md-list: #80b2dc;
+  --md-hr: #c1c8cd;
+
+  /* Code block syntax */
+  --syn-keyword: #74abdc;
+  --syn-string: #82cdac;
+  --syn-number: #e1ae78;
+  --syn-comment: #aab6c1;
+  --syn-function: #80b2dc;
+  --syn-variable: #7b9fc2;
+  --syn-type: #90b5d3;
+  --syn-property: #79addd;
+  --syn-operator: #90abc3;
+}

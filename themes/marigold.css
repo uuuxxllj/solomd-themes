@@ -1,0 +1,93 @@
+/*
+ * Marigold — community theme for SoloMD.
+ * 日间 / 暖色。正午的金盏花田：温润的奶油纸，赤金墨色，
+ * 像旧书的烫金书脊，明亮而有书卷气。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #fffaf0;
+  --bg-elev: #f6e8cc;
+  --bg-hover: #efdcb8;
+  --bg-active: #cbbb9c;
+  --border: #ecd9b4;
+  --text: #5c4a2e;
+  --text-muted: #8a7448;
+  --text-faint: #b09a6e;
+  --accent: #e0922f;
+  --accent-fg: #fffaf0;
+  --danger: #c4561f;
+
+  /* Markdown element colors */
+  --md-h1: #3e3018;
+  --md-h2: #4e3d20;
+  --md-h3: #5c4a2e;
+  --md-h4: #6e5936;
+  --md-h5: #8a7448;
+  --md-h6: #9e865a;
+  --md-strong: #3e3018;
+  --md-em: #5c4a2e;
+  --md-link: #d2832a;
+  --md-url: #b56a1e;
+  --md-code: #c4561f;
+  --md-code-bg: #f6e8cc;
+  --md-quote: #8a7448;
+  --md-list: #d2832a;
+  --md-hr: #ecd9b4;
+
+  /* Code block syntax */
+  --syn-keyword: #b56a1e;
+  --syn-string: #6f8f3f;
+  --syn-number: #c98a2b;
+  --syn-comment: #b09a6e;
+  --syn-function: #d2832a;
+  --syn-variable: #5c4a2e;
+  --syn-type: #e0922f;
+  --syn-property: #c4561f;
+  --syn-operator: #8a7448;
+}
+
+:root[data-theme="dark"] {
+  --bg: #211f1c;
+  --bg-elev: #171614;
+  --bg-hover: #10100e;
+  --bg-active: #0c0c0b;
+  --border: #12110f;
+  --text: #e7e2da;
+  --text-muted: #beb19d;
+  --text-faint: #9e8661;
+  --accent: #e0922f;
+  --accent-fg: #fffaf5;
+  --danger: #c4561f;
+
+  /* Markdown element colors */
+  --md-h1: #c6a46a;
+  --md-h2: #c6a671;
+  --md-h3: #c1a67d;
+  --md-h4: #c3ab81;
+  --md-h5: #c5b28c;
+  --md-h6: #c6b596;
+  --md-strong: #c6a46a;
+  --md-em: #c1a67d;
+  --md-link: #e3b17a;
+  --md-url: #e1a971;
+  --md-code: #e29974;
+  --md-code-bg: #1e1d1a;
+  --md-quote: #c5b28c;
+  --md-list: #e3b17a;
+  --md-hr: #cec7bb;
+
+  /* Code block syntax */
+  --syn-keyword: #e1a971;
+  --syn-string: #afcb85;
+  --syn-number: #e1b879;
+  --syn-comment: #c1b8a5;
+  --syn-function: #e3b17a;
+  --syn-variable: #c1a67d;
+  --syn-type: #dab688;
+  --syn-property: #e29974;
+  --syn-operator: #c5b28c;
+}

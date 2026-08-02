@@ -1,0 +1,93 @@
+/*
+ * Olive — community theme for SoloMD.
+ * 日间 / 绿色 / 温润。秋日橄榄园：暖调的卡其纸，
+ * 泥土气的橄榄绿，沉静、耐读，适合长文。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #f8f7ee;
+  --bg-elev: #e7e4d2;
+  --bg-hover: #dad6bf;
+  --bg-active: #b9b6a2;
+  --border: #d6d2b8;
+  --text: #4a4828;
+  --text-muted: #6e6a40;
+  --text-faint: #979270;
+  --accent: #6f7a2a;
+  --accent-fg: #f8f7ee;
+  --danger: #b0502f;
+
+  /* Markdown element colors */
+  --md-h1: #36351c;
+  --md-h2: #444324;
+  --md-h3: #4a4828;
+  --md-h4: #5a5733;
+  --md-h5: #6e6a40;
+  --md-h6: #847f4d;
+  --md-strong: #36351c;
+  --md-em: #4a4828;
+  --md-link: #6f7a2a;
+  --md-url: #596322;
+  --md-code: #707a2a;
+  --md-code-bg: #e7e4d2;
+  --md-quote: #6e6a40;
+  --md-list: #6f7a2a;
+  --md-hr: #d6d2b8;
+
+  /* Code block syntax */
+  --syn-keyword: #596322;
+  --syn-string: #8a9a45;
+  --syn-number: #b08a2a;
+  --syn-comment: #979270;
+  --syn-function: #6f7a2a;
+  --syn-variable: #4a4828;
+  --syn-type: #7c8630;
+  --syn-property: #707a2a;
+  --syn-operator: #6e6a40;
+}
+
+:root[data-theme="dark"] {
+  --bg: #21201c;
+  --bg-elev: #171714;
+  --bg-hover: #10100e;
+  --bg-active: #0c0c0b;
+  --border: #12120f;
+  --text: #e7e6da;
+  --text-muted: #bebc9d;
+  --text-faint: #9e9a61;
+  --accent: #6f7a2a;
+  --accent-fg: #fffaf5;
+  --danger: #b0502f;
+
+  /* Markdown element colors */
+  --md-h1: #bab775;
+  --md-h2: #bbb979;
+  --md-h3: #bbb87c;
+  --md-h4: #bcb783;
+  --md-h5: #beb989;
+  --md-h6: #c1bd90;
+  --md-strong: #bab775;
+  --md-em: #bbb87c;
+  --md-link: #c3d075;
+  --md-url: #bfce6f;
+  --md-code: #c4d075;
+  --md-code-bg: #1e1d1a;
+  --md-quote: #beb989;
+  --md-list: #c3d075;
+  --md-hr: #c8c7bb;
+
+  /* Code block syntax */
+  --syn-keyword: #bfce6f;
+  --syn-string: #bfcc89;
+  --syn-number: #ddc076;
+  --syn-comment: #bab7a6;
+  --syn-function: #c3d075;
+  --syn-variable: #bbb87c;
+  --syn-type: #c6d07a;
+  --syn-property: #c4d075;
+  --syn-operator: #beb989;
+}

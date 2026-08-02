@@ -1,0 +1,93 @@
+/*
+ * Rose — community theme for SoloMD.
+ * 日间 / 粉色 / 温润。庭院的蔷薇：带紫的玫瑰纸，
+ * 成熟柔美，像一封情书。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="light"] {
+  --bg: #fff7f9;
+  --bg-elev: #f9e0e6;
+  --bg-hover: #f3ccd6;
+  --bg-active: #cfadb6;
+  --border: #f3cdd6;
+  --text: #5c3138;
+  --text-muted: #8a5760;
+  --text-faint: #b0858e;
+  --accent: #d04f6e;
+  --accent-fg: #fff7f9;
+  --danger: #b8344a;
+
+  /* Markdown element colors */
+  --md-h1: #451f25;
+  --md-h2: #572a30;
+  --md-h3: #5c3138;
+  --md-h4: #703e46;
+  --md-h5: #8a5760;
+  --md-h6: #9e6f78;
+  --md-strong: #451f25;
+  --md-em: #5c3138;
+  --md-link: #c44364;
+  --md-url: #a5354f;
+  --md-code: #b83a58;
+  --md-code-bg: #f9e0e6;
+  --md-quote: #8a5760;
+  --md-list: #c44364;
+  --md-hr: #f3cdd6;
+
+  /* Code block syntax */
+  --syn-keyword: #a5354f;
+  --syn-string: #7a8a55;
+  --syn-number: #c08a3a;
+  --syn-comment: #b0858e;
+  --syn-function: #c44364;
+  --syn-variable: #5c3138;
+  --syn-type: #d04f6e;
+  --syn-property: #b83a58;
+  --syn-operator: #8a5760;
+}
+
+:root[data-theme="dark"] {
+  --bg: #211d1e;
+  --bg-elev: #171415;
+  --bg-hover: #100e0f;
+  --bg-active: #0c0b0b;
+  --border: #120f10;
+  --text: #e7dadc;
+  --text-muted: #be9da2;
+  --text-faint: #9e616b;
+  --accent: #d04f6e;
+  --accent-fg: #fffaf5;
+  --danger: #b8344a;
+
+  /* Markdown element colors */
+  --md-h1: #c1727f;
+  --md-h2: #c17a84;
+  --md-h3: #be808a;
+  --md-h4: #c08891;
+  --md-h5: #c0959d;
+  --md-h6: #bca5aa;
+  --md-strong: #c1727f;
+  --md-em: #be808a;
+  --md-link: #cc94a2;
+  --md-url: #d57e92;
+  --md-code: #d78297;
+  --md-code-bg: #1e1a1b;
+  --md-quote: #c0959d;
+  --md-list: #cc94a2;
+  --md-hr: #cfc2c5;
+
+  /* Code block syntax */
+  --syn-keyword: #d57e92;
+  --syn-string: #b3c194;
+  --syn-number: #d9b683;
+  --syn-comment: #c0acb0;
+  --syn-function: #cc94a2;
+  --syn-variable: #be808a;
+  --syn-type: #ce98a5;
+  --syn-property: #d78297;
+  --syn-operator: #c0959d;
+}

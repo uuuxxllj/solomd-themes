@@ -1,0 +1,93 @@
+/*
+ * Forest — community theme for SoloMD.
+ * 夜间 / 冷色。夜林的呼吸：墨绿近黑的底，苔玉绿光，
+ * 幽深、安宁，像在林间篝火旁写日记。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="dark"] {
+  --bg: #29392c;
+  --bg-elev: #1f2e23;
+  --bg-hover: #18241b;
+  --bg-active: #101a14;
+  --border: #2b3a2e;
+  --text: #d6e6d8;
+  --text-muted: #9cbaa2;
+  --text-faint: #6f8b74;
+  --accent: #4caa7a;
+  --accent-fg: #101a14;
+  --danger: #d4795a;
+
+  /* Markdown element colors */
+  --md-h1: #e6f1e8;
+  --md-h2: #d6e6d8;
+  --md-h3: #c2d8c6;
+  --md-h4: #aec9b2;
+  --md-h5: #9cbaa2;
+  --md-h6: #84a78c;
+  --md-strong: #e6f1e8;
+  --md-em: #d6e6d8;
+  --md-link: #4caa7a;
+  --md-url: #3a9068;
+  --md-code: #5cba8a;
+  --md-code-bg: #1f2e23;
+  --md-quote: #9cbaa2;
+  --md-list: #4caa7a;
+  --md-hr: #2b3a2e;
+
+  /* Code block syntax */
+  --syn-keyword: #3a9068;
+  --syn-string: #a8c46e;
+  --syn-number: #d4a85a;
+  --syn-comment: #6f8b74;
+  --syn-function: #4caa7a;
+  --syn-variable: #d6e6d8;
+  --syn-type: #4caa7a;
+  --syn-property: #5cba8a;
+  --syn-operator: #9cbaa2;
+}
+
+:root[data-theme="light"] {
+  --bg: #f6f8f7;
+  --bg-elev: #e8ede9;
+  --bg-hover: #d9e2db;
+  --bg-active: #c8d5ca;
+  --border: #e5ece6;
+  --text: #2f3730;
+  --text-muted: #407747;
+  --text-faint: #60a969;
+  --accent: #4caa7a;
+  --accent-fg: #fffaf5;
+  --danger: #d4795a;
+
+  /* Markdown element colors */
+  --md-h1: #677669;
+  --md-h2: #637465;
+  --md-h3: #5e7161;
+  --md-h4: #596d5c;
+  --md-h5: #556a59;
+  --md-h6: #506555;
+  --md-strong: #677669;
+  --md-em: #637465;
+  --md-link: #337654;
+  --md-url: #2d7252;
+  --md-code: #426e58;
+  --md-code-bg: #eef1ef;
+  --md-quote: #556a59;
+  --md-list: #337654;
+  --md-hr: #37503c;
+
+  /* Code block syntax */
+  --syn-keyword: #2d7252;
+  --syn-string: #637146;
+  --syn-number: #79633d;
+  --syn-comment: #48624d;
+  --syn-function: #337654;
+  --syn-variable: #637465;
+  --syn-type: #337654;
+  --syn-property: #426e58;
+  --syn-operator: #556a59;
+}

@@ -1,0 +1,93 @@
+/*
+ * Ember — community theme for SoloMD.
+ * 夜间 / 暖色。将熄的余烬：酒红近黑的夜，玫瑰红炭火，
+ * 戏剧化、浓烈，适合夜读与写诗。
+ *
+ * Author:  WorkBuddy
+ * License: MIT
+ * (dual-mode: 已补齐对应的日间/夜间主题)
+ */
+:root,
+:root[data-theme="dark"] {
+  --bg: #3a2228;
+  --bg-elev: #2e1b20;
+  --bg-hover: #241519;
+  --bg-active: #1a1012;
+  --border: #3d242b;
+  --text: #efd9d6;
+  --text-muted: #c79a96;
+  --text-faint: #936a66;
+  --accent: #e0556b;
+  --accent-fg: #1a1012;
+  --danger: #d83a4f;
+
+  /* Markdown element colors */
+  --md-h1: #f6e2de;
+  --md-h2: #eeccce;
+  --md-h3: #efd9d6;
+  --md-h4: #ddb8b8;
+  --md-h5: #c79a96;
+  --md-h6: #ac7e7c;
+  --md-strong: #f6e2de;
+  --md-em: #efd9d6;
+  --md-link: #e0556b;
+  --md-url: #c84a60;
+  --md-code: #d46679;
+  --md-code-bg: #2e1b20;
+  --md-quote: #c79a96;
+  --md-list: #e0556b;
+  --md-hr: #3d242b;
+
+  /* Code block syntax */
+  --syn-keyword: #c84a60;
+  --syn-string: #b58a6e;
+  --syn-number: #e0a05a;
+  --syn-comment: #936a66;
+  --syn-function: #e0556b;
+  --syn-variable: #efd9d6;
+  --syn-type: #e0556b;
+  --syn-property: #d46679;
+  --syn-operator: #c79a96;
+}
+
+:root[data-theme="light"] {
+  --bg: #f9f6f7;
+  --bg-elev: #eee7e9;
+  --bg-hover: #e4d8db;
+  --bg-active: #d8c5ca;
+  --border: #ede3e6;
+  --text: #37302f;
+  --text-muted: #774740;
+  --text-faint: #a96960;
+  --accent: #e0556b;
+  --accent-fg: #fffaf5;
+  --danger: #d83a4f;
+
+  /* Markdown element colors */
+  --md-h1: #786764;
+  --md-h2: #775f60;
+  --md-h3: #776462;
+  --md-h4: #735a5a;
+  --md-h5: #6e5552;
+  --md-h6: #674e4d;
+  --md-strong: #786764;
+  --md-em: #776462;
+  --md-link: #7f3843;
+  --md-url: #763944;
+  --md-code: #78414a;
+  --md-code-bg: #f2edef;
+  --md-quote: #6e5552;
+  --md-list: #7f3843;
+  --md-hr: #56303b;
+
+  /* Code block syntax */
+  --syn-keyword: #763944;
+  --syn-string: #6b5648;
+  --syn-number: #7e5e3a;
+  --syn-comment: #674643;
+  --syn-function: #7f3843;
+  --syn-variable: #776462;
+  --syn-type: #7f3843;
+  --syn-property: #78414a;
+  --syn-operator: #6e5552;
+}
